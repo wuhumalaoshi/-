@@ -1,0 +1,58 @@
+body {
+    margin:0 10% 0 10%;
+    background-attachment: fixed;
+}
+header{
+    position: fixed;
+    width: 80%;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:auto;
+    background-color:#D87093;
+}
+header #a1{
+    grid-row:1/-1;
+    grid-column:1/2;
+}
+header #a1 img {
+    width:40px;
+    height:40px;
+}
+header #a2{
+    grid-row:1/-1;
+    grid-column:span;
+    align-self: end;
+    justify-self: end;
+}
+header #a3{
+    grid-row:1/-1;
+    grid-column:span;
+    align-self: end;
+    justify-self: end;
+}
+header #a4{
+    grid-row:1/-1;
+    grid-column:span;
+    align-self: end;
+    justify-self: end;
+}
+#HuanDengPian{
+    margin-top:10px;
+    height:400px;
+    width:100%;
+}
+#HuanDengPian #img1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    clear: none;
+}
+#HuanDengPian div{
+    position: absolute;
+    top:55px;
+    width: 20%;
+    background-color:#007e7e;
+}
+#XuanChuan{
+    background:#efe5d0;
+}
